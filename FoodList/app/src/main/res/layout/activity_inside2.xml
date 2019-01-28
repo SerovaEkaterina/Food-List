@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="InsideActivity2">
+
+    <LinearLayout
+        android:id="@+id/ll2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/green_gradient"
+        android:orientation="vertical">
+
+
+        <ImageView
+            android:id="@+id/food_photo"
+            android:layout_width="match_parent"
+            android:layout_height="249dp"
+            android:src="@drawable/eda"
+            tools:ignore="ContentDescription" />
+
+        <TextView
+            android:id="@+id/food_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="20dp"
+            android:text="Хинкали"
+            android:textColor="#FFFF"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            tools:ignore="HardcodedText,RtlHardcoded,SpUsage" />
+
+        <TextView
+            android:id="@+id/food_c"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:layout_marginLeft="20dp"
+            android:text="Грузия"
+            android:textColor="#FFFF"
+            android:textStyle="italic"
+            android:textSize="18dp"
+            tools:ignore="HardcodedText,RtlHardcoded,SpUsage" />
+
+        <TextView
+            android:id="@+id/description"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="2dp"
+            android:layout_marginRight="10dp"
+            android:gravity="center"
+            android:text="Это одно из самых популярных в мире грузинских блюд. Внешне и по вкусу напоминают обычные пельмени, только вот огромного размера и с хвостиком. В качестве приправы идёт чёрный перец. Начинка у такого яства самая разнообразная: от мясной до овощной, но чаще всего внутри хинкали можно обнаружить бульон. Едят такие пельмени руками, придерживая за хвостик. Сначала выпивают содержимое хинкали, надкусывая его, а потом приступают к начинке."
+            android:textColor="#1d4d58"
+            android:textSize="16dp"
+            tools:ignore="HardcodedText,RtlHardcoded,SpUsage" />
+
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
