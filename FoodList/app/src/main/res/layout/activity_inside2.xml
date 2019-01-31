@@ -3,25 +3,21 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     xmlns:tools="http://schemas.android.com/tools"
-    tools:context="InsideActivity2">
-
+    tools:context=".controller.InsideActivity2">
     <LinearLayout
         android:id="@+id/ll2"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:background="@drawable/green_gradient"
         android:orientation="vertical">
-
-
         <ImageView
-            android:id="@+id/food_photo"
+            android:id="@+id/details_food_image"
             android:layout_width="match_parent"
             android:layout_height="249dp"
             android:src="@drawable/eda"
             tools:ignore="ContentDescription" />
-
         <TextView
-            android:id="@+id/food_name"
+            android:id="@+id/details_food_name"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="5dp"
@@ -31,9 +27,8 @@
             android:textStyle="bold"
             android:textSize="20dp"
             tools:ignore="HardcodedText,RtlHardcoded,SpUsage" />
-
         <TextView
-            android:id="@+id/food_c"
+            android:id="@+id/details_food_description"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="2dp"
@@ -43,9 +38,8 @@
             android:textStyle="italic"
             android:textSize="18dp"
             tools:ignore="HardcodedText,RtlHardcoded,SpUsage" />
-
         <TextView
-            android:id="@+id/description"
+            android:id="@+id/details_food_review"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginLeft="10dp"
@@ -56,8 +50,5 @@
             android:textColor="#1d4d58"
             android:textSize="16dp"
             tools:ignore="HardcodedText,RtlHardcoded,SpUsage" />
-
-
     </LinearLayout>
-
 </android.support.constraint.ConstraintLayout>

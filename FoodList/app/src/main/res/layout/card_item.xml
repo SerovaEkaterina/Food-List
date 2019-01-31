@@ -2,8 +2,8 @@
 <android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
     android:id="@+id/cv"
+    android:layout_width="match_parent"
     android:layout_height="250dp">
 
     <ImageView
@@ -16,41 +16,34 @@
         android:layout_marginEnd="8dp"
         android:layout_marginRight="8dp"
         android:layout_marginBottom="8dp"
-        app:srcCompat="@drawable/green_gradient"
+        android:background="@drawable/green_gradient"
         tools:ignore="ContentDescription,MissingConstraints" />
 
     <TextView
-        android:id="@+id/food_name"
+        android:id="@+id/details_food_name"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
         android:layout_marginTop="175dp"
-        android:text="Хинкали"
         android:textColor="#FFFF"
         android:textStyle="bold"
-        tools:ignore="HardcodedText,MissingConstraints"
         android:layout_marginLeft="16dp" />
 
     <TextView
-        android:id="@+id/food_c"
+        android:id="@+id/details_food_description"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
         android:layout_marginTop="195dp"
-        android:text="Грузия"
         android:textColor="#FFFF"
         android:textStyle="italic"
-        tools:ignore="HardcodedText,MissingConstraints"
         android:layout_marginLeft="16dp" />
-
     <ImageView
-        android:id="@+id/food_photo"
-        android:layout_width="wrap_content"
+        android:id="@+id/details_food_image"
+        android:layout_width="match_parent"
         android:layout_height="147dp"
         android:layout_marginStart="8dp"
         android:layout_marginTop="23dp"
         android:layout_marginEnd="8dp"
-        app:srcCompat="@drawable/eda"
-        tools:ignore="ContentDescription" />
-
+        android:scaleType="fitXY" />
 </android.support.v7.widget.CardView>
