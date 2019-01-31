@@ -16,6 +16,7 @@
             android:layout_height="249dp"
             android:src="@drawable/eda"
             tools:ignore="ContentDescription" />
+
         <TextView
             android:id="@+id/details_food_name"
             android:layout_width="wrap_content"
